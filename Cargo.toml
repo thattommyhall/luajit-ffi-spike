@@ -1,0 +1,16 @@
+[package]
+name = "luajit-to-rust"
+version = "0.1.0"
+# Modified based on python version
+authors = ["Livio Ribeiro <livioribeiro@outlook.com>"]
+
+[lib]
+name = "double_input"
+crate-type = ["dylib"]
+
+edition = "2018"
+[dependencies]
+cid = "0.5.0"
+multihash = "0.11"
+libc = "0.2"
+
